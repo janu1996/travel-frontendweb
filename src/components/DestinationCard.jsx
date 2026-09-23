@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import {addFavorite} from '../features/FavoriteSlice';
+import {addFavorite} from '../features/favoriteSlice';
 
 function DestinationCard({ destination ,onDelete}) {
   const dispatch=useDispatch()

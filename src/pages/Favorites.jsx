@@ -5,7 +5,7 @@ import {
 
 import {
   removeFavorite
-} from "../features/FavoriteSlice";
+} from "../features/favoriteSlice";
 
 function Favorites() {
 
